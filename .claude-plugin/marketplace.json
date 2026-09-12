@@ -1,0 +1,15 @@
+{
+  "name": "numerologist-skills",
+  "owner": {
+    "name": "mingxiangai81",
+    "url": "https://github.com/mingxiangai81"
+  },
+  "plugins": [
+    {
+      "name": "numerologist-skills",
+      "source": "./",
+      "description": "传统术数工程化技能包：奇门遁甲、紫微斗数、四柱八字。访谈优先、确定性计算外包、先声明口径后下结论。",
+      "version": "0.1.0"
+    }
+  ]
+}

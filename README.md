@@ -10,6 +10,20 @@
 | `ziwei-doushu/` | 紫微斗数 | 本命盘结构解读、宫位分析、大限流年 | 规则与 references 驱动 |
 | `bazi/` | 四柱八字 | 日主强弱、格局、十神、大运流年 | 规则与 references 驱动 |
 
+## 安装为 Claude Code 插件
+
+本仓库已打包为 Claude Code 插件，可直接作为 marketplace 安装，三个 skill 会持久可用（跨机器、跨会话），无需手动拷贝到 `~/.claude/skills/`。
+
+```
+# 1. 添加本仓库为插件市场
+/plugin marketplace add mingxiangai81/Numerologist_skills
+
+# 2. 安装插件（包含 qimen-dunjia / ziwei-doushu / bazi 三个 skill）
+/plugin install numerologist-skills@numerologist-skills
+```
+
+安装后三个 skill 会以 `numerologist-skills:qimen-dunjia`、`numerologist-skills:ziwei-doushu`、`numerologist-skills:bazi` 的形式被识别并按其 `description` 触发条件自动启用。插件清单见 `.claude-plugin/plugin.json`，市场清单见 `.claude-plugin/marketplace.json`。
+
 ## 仓库结构
 
 - `SKILL.md`：主技能说明、触发条件、工作流、输出约束
