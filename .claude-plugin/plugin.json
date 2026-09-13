@@ -1,0 +1,28 @@
+{
+  "name": "numerologist-skills",
+  "displayName": "术数工程化 Skills",
+  "version": "0.1.0",
+  "description": "传统术数工程化技能包：奇门遁甲、紫微斗数、四柱八字。以访谈优先、确定性计算外包、先声明口径后下结论为原则，尽量减少排盘与解释链路上的幻觉。",
+  "author": {
+    "name": "mingxiangai81",
+    "url": "https://github.com/mingxiangai81"
+  },
+  "homepage": "https://github.com/mingxiangai81/Numerologist_skills",
+  "repository": "https://github.com/mingxiangai81/Numerologist_skills",
+  "keywords": [
+    "numerology",
+    "chinese-metaphysics",
+    "qimen-dunjia",
+    "ziwei-doushu",
+    "bazi",
+    "术数",
+    "奇门遁甲",
+    "紫微斗数",
+    "八字"
+  ],
+  "skills": [
+    "./qimen-dunjia",
+    "./ziwei-doushu",
+    "./bazi"
+  ]
+}
